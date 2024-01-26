@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pngtree-car-service-illustration-repair-auto-picture-image_1882362.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+    
+  
+    .wrapper{
+    position: relative;
+    width: 370px;
+    height: 700px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+  
+  .elem-group {
+    margin: 20px 0;
+  }
+
+ .elem-grouph2 {
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+
+  .elem-group input:focus~label,
+  .elem-group input:valid~label{   
+  top:-5px;
+  }
+  
+  .elem-group.inlined {
+    position: relative  ;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  label {
+    display: flex;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    color:white;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  .btn{
+    width: 350px;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer ;
+    font: size 1em;
+    color: #fff;
+    font-weight: 500;
+}
+  
+  button:hover {
+    border: 2px solid black;
+  }
